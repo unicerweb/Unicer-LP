@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Unicer — Landing Page Institucional
 
-## Getting Started
+Site institucional moderno da **Unicer Equipamentos para Cerâmica**, otimizado para campanhas de tráfego pago (Google Ads).
 
-First, run the development server:
+## Tecnologias
+
+- [Next.js](https://nextjs.org/) 16 (App Router)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) 4
+- [Lucide React](https://lucide.dev/) (ícones)
+
+## Desenvolvimento
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build de produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Estrutura
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app/` — layout, página principal e estilos globais
+- `src/components/` — seções da landing page
+- `src/lib/constants.ts` — dados da empresa (telefone, endereço, produtos)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Google Ads
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O site foi pensado para conversão:
 
-## Deploy on Vercel
+- CTAs claros ("Solicitar orçamento")
+- Botão flutuante de WhatsApp
+- Formulário de contato que redireciona ao WhatsApp
+- SEO configurado com metadata e Open Graph
+- Layout responsivo e carregamento rápido
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para integrar o Google Tag Manager ou Google Analytics, adicione os scripts no `src/app/layout.tsx`.

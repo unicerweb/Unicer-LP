@@ -1,0 +1,443 @@
+{
+  "categories": [
+    {
+      "id": "cat-pecas",
+      "slug": "pecas",
+      "label": "Peças",
+      "title": "Peças de reposição",
+      "description": "Ampla variedade de peças usinadas com precisão para manter sua produção em pleno funcionamento.",
+      "layout": "grid",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "cat-usinagem",
+      "slug": "usinagem",
+      "label": "Usinagem",
+      "title": "Usinagem e manufatura",
+      "description": "Usinagem própria com controle total de qualidade, incluindo manufatura para terceiros e peças em padronizações especiais.",
+      "layout": "grid",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "cat-maquinas",
+      "slug": "maquinas",
+      "label": "Máquinas",
+      "title": "Máquinas e equipamentos",
+      "description": "Equipamentos completos para otimizar sua linha de produção cerâmica, incluindo máquinas Unicer e equipamentos reformados.",
+      "layout": "grid",
+      "active": true,
+      "order": 3
+    }
+  ],
+  "items": [
+    {
+      "id": "p-acumulador-argila",
+      "categoryId": "cat-pecas",
+      "title": "Acumulador de argila",
+      "summary": "Acumulador de argila para linhas de produção cerâmica.",
+      "description": "Acumulador de argila para linhas de produção cerâmica. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "p-anel-bipartido",
+      "categoryId": "cat-pecas",
+      "title": "Anel bi-partido",
+      "summary": "Anel bi-partido para equipamentos da indústria cerâmica.",
+      "description": "Anel bi-partido para equipamentos da indústria cerâmica. Fabricação e reposição com precisão Unicer.",
+      "icon": "gear",
+      "images": [],
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "p-anel-dentado",
+      "categoryId": "cat-pecas",
+      "title": "Anel dentado",
+      "summary": "Anel dentado para transmissão e acionamento.",
+      "description": "Anel dentado para transmissão e acionamento em equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "gear",
+      "images": [],
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": "p-boca-forno",
+      "categoryId": "cat-pecas",
+      "title": "Boca de forno",
+      "summary": "Boca de forno para cerâmicas e processos de queima.",
+      "description": "Boca de forno para cerâmicas e processos de queima. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 4
+    },
+    {
+      "id": "p-bujao-eixo-central",
+      "categoryId": "cat-pecas",
+      "title": "Bujão do eixo central",
+      "summary": "Bujão do eixo central para laminadores e equipamentos.",
+      "description": "Bujão do eixo central para laminadores e equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "axis",
+      "images": [],
+      "active": true,
+      "order": 5
+    },
+    {
+      "id": "p-calcador-aspo",
+      "categoryId": "cat-pecas",
+      "title": "Calcador - aspo",
+      "summary": "Calcador e aspo para preparação de massa.",
+      "description": "Calcador e aspo para preparação de massa na indústria cerâmica. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 6
+    },
+    {
+      "id": "p-calco-resistencia",
+      "categoryId": "cat-pecas",
+      "title": "Calço e resistência",
+      "summary": "Calço e resistência para equipamentos cerâmicos.",
+      "description": "Calço e resistência para equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 7
+    },
+    {
+      "id": "p-caracol-helice",
+      "categoryId": "cat-pecas",
+      "title": "Caracol - hélice",
+      "summary": "Caracol e hélice para dosagem e transporte de argila.",
+      "description": "Caracol e hélice para dosagem e transporte de argila. Fabricação e reposição com precisão Unicer.",
+      "icon": "gear",
+      "images": [],
+      "active": true,
+      "order": 8
+    },
+    {
+      "id": "p-cilindro",
+      "categoryId": "cat-pecas",
+      "title": "Cilindro (cônico e chavetado)",
+      "summary": "Cilindros cônicos e chavetados com alta precisão dimensional para laminadores.",
+      "description": "Fabricamos cilindros cônicos e chavetados para laminadores e demais equipamentos da linha cerâmica.\n\nCaracterísticas:\n• Usinagem própria com controle dimensional rigoroso\n• Aço tratado para alta resistência ao desgaste\n• Modelos cônicos e chavetados conforme especificação\n• Compatível com equipamentos Unicer, Bonfanti, Morando e outras marcas\n\nSolicite orçamento informando o modelo do equipamento e as medidas necessárias.",
+      "icon": "cylinder",
+      "images": [],
+      "active": true,
+      "order": 9
+    },
+    {
+      "id": "p-conico-porta-estrela",
+      "categoryId": "cat-pecas",
+      "title": "Cônico porta estrela",
+      "summary": "Cônico porta estrela para laminadores.",
+      "description": "Cônico porta estrela para laminadores e linhas de produção cerâmica. Fabricação e reposição com precisão Unicer.",
+      "icon": "cylinder",
+      "images": [],
+      "active": true,
+      "order": 10
+    },
+    {
+      "id": "p-cordoalha-arame",
+      "categoryId": "cat-pecas",
+      "title": "Cordoalha - arame para corte",
+      "summary": "Cordoalha e arame para corte na produção cerâmica.",
+      "description": "Cordoalha e arame para corte na produção cerâmica. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 11
+    },
+    {
+      "id": "p-disco-desgaste",
+      "categoryId": "cat-pecas",
+      "title": "Disco de desgaste",
+      "summary": "Disco de desgaste para equipamentos cerâmicos.",
+      "description": "Disco de desgaste para equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "wheel",
+      "images": [],
+      "active": true,
+      "order": 12
+    },
+    {
+      "id": "p-disco-fundo",
+      "categoryId": "cat-pecas",
+      "title": "Disco de fundo",
+      "summary": "Disco de fundo para equipamentos da linha cerâmica.",
+      "description": "Disco de fundo para equipamentos da linha cerâmica. Fabricação e reposição com precisão Unicer.",
+      "icon": "wheel",
+      "images": [],
+      "active": true,
+      "order": 13
+    },
+    {
+      "id": "p-eixo",
+      "categoryId": "cat-pecas",
+      "title": "Eixo",
+      "summary": "Eixos usinados com controle rigoroso de qualidade.",
+      "description": "Eixos usinados com controle rigoroso de qualidade para toda linha de equipamentos cerâmicos.",
+      "icon": "axis",
+      "images": [],
+      "active": true,
+      "order": 14
+    },
+    {
+      "id": "p-eixo-pinhão",
+      "categoryId": "cat-pecas",
+      "title": "Eixo pinhão",
+      "summary": "Eixo pinhão para transmissão de equipamentos cerâmicos.",
+      "description": "Eixo pinhão para transmissão de equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "axis",
+      "images": [],
+      "active": true,
+      "order": 15
+    },
+    {
+      "id": "p-embreagem-camara",
+      "categoryId": "cat-pecas",
+      "title": "Embreagem - câmara",
+      "summary": "Embreagem e câmara para acionamento industrial.",
+      "description": "Embreagem e câmara para acionamento industrial em equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "gear",
+      "images": [],
+      "active": true,
+      "order": 16
+    },
+    {
+      "id": "p-engrenagem",
+      "categoryId": "cat-pecas",
+      "title": "Engrenagem",
+      "summary": "Engrenagens usinadas para transmissão em equipamentos cerâmicos.",
+      "description": "Engrenagens fabricadas com precisão para sistemas de transmissão em laminadores, desintegradores e demais máquinas da indústria cerâmica.\n\nCaracterísticas:\n• Dentes usinados com tolerância controlada\n• Diversos módulos e diâmetros disponíveis\n• Tratamento térmico conforme aplicação\n• Reposição para equipamentos nacionais e importados\n\nEnvie as especificações ou a peça usada para cotação rápida.",
+      "icon": "gear",
+      "images": [],
+      "active": true,
+      "order": 17
+    },
+    {
+      "id": "p-esteira-caixao-dosador",
+      "categoryId": "cat-pecas",
+      "title": "Esteira de caixão dosador",
+      "summary": "Esteira de caixão dosador para linha de produção.",
+      "description": "Esteira de caixão dosador para linha de produção cerâmica. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 18
+    },
+    {
+      "id": "p-haste-pa",
+      "categoryId": "cat-pecas",
+      "title": "Haste - pá (+suplemento)",
+      "summary": "Haste, pá e suplementos para equipamentos cerâmicos.",
+      "description": "Haste, pá e suplementos para equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 19
+    },
+    {
+      "id": "p-helice-aluminio",
+      "categoryId": "cat-pecas",
+      "title": "Hélice de alumínio/polipropileno",
+      "summary": "Hélice em alumínio ou polipropileno para dosadores e misturadores.",
+      "description": "Hélice em alumínio ou polipropileno para dosadores e misturadores. Fabricação e reposição com precisão Unicer.",
+      "icon": "gear",
+      "images": [],
+      "active": true,
+      "order": 20
+    },
+    {
+      "id": "p-pinhão",
+      "categoryId": "cat-pecas",
+      "title": "Pinhão",
+      "summary": "Pinhões para transmissão em equipamentos cerâmicos.",
+      "description": "Pinhões para transmissão em equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "gear",
+      "images": [],
+      "active": true,
+      "order": 21
+    },
+    {
+      "id": "p-pneu",
+      "categoryId": "cat-pecas",
+      "title": "Pneu",
+      "summary": "Pneus para equipamentos da indústria cerâmica.",
+      "description": "Pneus para equipamentos da indústria cerâmica. Fabricação e reposição com precisão Unicer.",
+      "icon": "wheel",
+      "images": [],
+      "active": true,
+      "order": 22
+    },
+    {
+      "id": "p-pneu-embreagem",
+      "categoryId": "cat-pecas",
+      "title": "Pneu para embreagem",
+      "summary": "Pneu para embreagem em equipamentos cerâmicos.",
+      "description": "Pneu para embreagem em equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "wheel",
+      "images": [],
+      "active": true,
+      "order": 23
+    },
+    {
+      "id": "p-ponteira-suplemento-borda",
+      "categoryId": "cat-pecas",
+      "title": "Ponteira - suplemento - borda",
+      "summary": "Ponteira, suplemento e borda para laminadores.",
+      "description": "Ponteira, suplemento e borda para laminadores e equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 24
+    },
+    {
+      "id": "p-revestimento-camisa",
+      "categoryId": "cat-pecas",
+      "title": "Revestimento - camisa",
+      "summary": "Revestimento e camisa para proteção de componentes.",
+      "description": "Revestimento e camisa para proteção de componentes em equipamentos cerâmicos. Fabricação e reposição com precisão Unicer.",
+      "icon": "custom",
+      "images": [],
+      "active": true,
+      "order": 25
+    },
+    {
+      "id": "p-roda",
+      "categoryId": "cat-pecas",
+      "title": "Roda",
+      "summary": "Rodas para transporte e movimentação interna.",
+      "description": "Rodas para transporte e movimentação interna em cerâmicas. Fabricação e reposição com precisão Unicer.",
+      "icon": "wheel",
+      "images": [],
+      "active": true,
+      "order": 26
+    },
+    {
+      "id": "p-roda-vagoneta",
+      "categoryId": "cat-pecas",
+      "title": "Roda vagoneta",
+      "summary": "Rodas de vagoneta para transporte interno em cerâmicas.",
+      "description": "Rodas de vagoneta para transporte interno de peças e materiais em cerâmicas, com alta durabilidade e resistência ao desgaste.\n\nCaracterísticas:\n• Fabricação em aço ou conforme especificação do cliente\n• Acabamento para trilhos e pisos industriais\n• Reposição rápida para manter a produção\n• Disponível em diversos diâmetros\n\nIdeal para vagonetas de carga, estufas e linhas de produção.",
+      "icon": "wheel",
+      "images": [],
+      "active": true,
+      "order": 27
+    },
+    {
+      "id": "p-rotor-desintegrador",
+      "categoryId": "cat-pecas",
+      "title": "Rotor desintegrador",
+      "summary": "Rotor para desintegradores e preparação de massa.",
+      "description": "Rotor para desintegradores e preparação de massa. Fabricação e reposição com precisão Unicer.",
+      "icon": "gear",
+      "images": [],
+      "active": true,
+      "order": 28
+    },
+    {
+      "id": "u1-precisao",
+      "categoryId": "cat-usinagem",
+      "title": "Usinagem de precisão",
+      "description": "Torneamento, fresamento e usinagem de componentes industriais com alta precisão dimensional.",
+      "icon": "axis",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "u2-terceiros",
+      "categoryId": "cat-usinagem",
+      "title": "Manufatura para terceiros",
+      "description": "Produção sob demanda com controle rigoroso de qualidade em todas as etapas do processo.",
+      "icon": "custom",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "u3-especiais",
+      "categoryId": "cat-usinagem",
+      "title": "Padronizações especiais",
+      "description": "Desenvolvimento e fabricação de peças em medidas e especificações personalizadas.",
+      "icon": "gear",
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": "u4-qualidade",
+      "categoryId": "cat-usinagem",
+      "title": "Controle de qualidade",
+      "description": "Usinagem própria que garante rastreabilidade e conformidade em cada peça produzida.",
+      "icon": "brands",
+      "active": true,
+      "order": 4
+    },
+    {
+      "id": "m1-bomba-agua",
+      "categoryId": "cat-maquinas",
+      "title": "Bomba de vácuo à água",
+      "description": "Bomba de vácuo à água para processos industriais cerâmicos.",
+      "icon": "cylinder",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "m2-bomba-oleo",
+      "categoryId": "cat-maquinas",
+      "title": "Bomba de vácuo à óleo",
+      "description": "Bomba de vácuo à óleo para aplicações que exigem maior desempenho.",
+      "icon": "cylinder",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "m3-desintegrador",
+      "categoryId": "cat-maquinas",
+      "title": "Desintegrador Unicer 600",
+      "description": "Equipamento robusto para preparação e homogeneização de massa.",
+      "icon": "gear",
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": "m4-laminador",
+      "categoryId": "cat-maquinas",
+      "title": "Laminador Unicer 600",
+      "description": "Laminador de alta performance para linhas de produção.",
+      "icon": "wheel",
+      "active": true,
+      "order": 4
+    },
+    {
+      "id": "m5-maromba-bonfanti",
+      "categoryId": "cat-maquinas",
+      "title": "Maromba Bonfanti MVB-14/110 reformada",
+      "description": "Maromba Bonfanti MVB-14/110 totalmente revisada e pronta para operação.",
+      "icon": "custom",
+      "active": true,
+      "order": 5
+    },
+    {
+      "id": "m6-maromba-morando",
+      "categoryId": "cat-maquinas",
+      "title": "Maromba Morando MVP-4 reformada",
+      "description": "Maromba Morando MVP-4 totalmente revisada e pronta para operação.",
+      "icon": "custom",
+      "active": true,
+      "order": 6
+    },
+    {
+      "id": "m7-torre",
+      "categoryId": "cat-maquinas",
+      "title": "Torre de resfriamento",
+      "description": "Solução eficiente para controle térmico em processos industriais.",
+      "icon": "brands",
+      "active": true,
+      "order": 7
+    }
+  ]
+}
