@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { COMPANY, NAV_LINKS } from "@/lib/constants";
+import { COMPANY, NAV_LINKS, SITE_LOGO } from "@/lib/constants";
 import { AnimateOnScroll } from "@/components/AnimateOnScroll";
 
 export function Footer() {
@@ -12,11 +12,11 @@ export function Footer() {
           <AnimateOnScroll variant="fade-up">
             <div>
               <Image
-                src="/logo.png"
+                src={SITE_LOGO}
                 alt={COMPANY.fullName}
-                width={180}
-                height={60}
-                className="h-12 w-auto brightness-0 invert"
+                width={200}
+                height={68}
+                className="h-12 w-auto rounded-lg bg-white/95 p-1"
               />
               <p className="mt-4 text-sm leading-relaxed text-white/60">
                 {COMPANY.tagline}. Atuando desde {COMPANY.founded} em Leme, SP.

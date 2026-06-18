@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { COMPANY, NAV_LINKS, WHATSAPP_QUOTE_URL } from "@/lib/constants";
+import { COMPANY, NAV_LINKS, SITE_LOGO, WHATSAPP_QUOTE_URL } from "@/lib/constants";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,10 +33,10 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a href="/" className="shrink-0">
           <Image
-            src="/logo.png"
+            src={SITE_LOGO}
             alt={COMPANY.fullName}
-            width={160}
-            height={54}
+            width={200}
+            height={68}
             className="h-10 w-auto sm:h-12"
             priority
           />

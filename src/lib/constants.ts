@@ -18,6 +18,8 @@ export const COMPANY = {
   },
 } as const;
 
+export const SITE_LOGO = "/logosemfundo.jpeg";
+
 const MAPS_QUERY = encodeURIComponent(
   `${COMPANY.address.full}, Brasil`
 );

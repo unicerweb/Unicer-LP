@@ -186,6 +186,7 @@ body {
 }
 
 .wa-float {
+  opacity: 1;
   animation: motion-float 3s ease-in-out infinite;
 }
 
