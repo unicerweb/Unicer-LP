@@ -81,7 +81,7 @@ export function AdminPanel() {
       <div className="flex min-h-screen items-center justify-center bg-muted px-4">
         <div className="w-full max-w-md rounded-2xl border border-unicer-blue/10 bg-white p-8 shadow-xl shadow-unicer-blue/5">
           <div className="mb-8 flex flex-col items-center text-center">
-            <Image src={SITE_LOGO} alt="Unicer" width={200} height={68} className="h-12 w-auto" />
+            <Image src={SITE_LOGO} alt="Unicer" width={300} height={110} className="h-12 w-auto" />
             <h1 className="mt-6 text-2xl font-bold text-unicer-blue">Painel Admin</h1>
             <p className="mt-2 text-sm text-unicer-blue/65">
               Gerencie categorias e itens do catálogo
@@ -125,7 +125,7 @@ export function AdminPanel() {
       <header className="border-b border-unicer-blue/10 bg-white">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
           <div className="flex items-center gap-4">
-            <Image src={SITE_LOGO} alt="Unicer" width={160} height={54} className="h-9 w-auto" />
+            <Image src={SITE_LOGO} alt="Unicer" width={240} height={88} className="h-9 w-auto" />
             <span className="hidden text-sm font-medium text-unicer-blue/60 sm:block">
               Catálogo
             </span>

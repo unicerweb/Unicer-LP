@@ -14,9 +14,9 @@ export function Footer() {
               <Image
                 src={SITE_LOGO}
                 alt={COMPANY.fullName}
-                width={200}
-                height={68}
-                className="h-12 w-auto rounded-lg bg-white/95 p-1"
+                width={300}
+                height={110}
+                className="h-12 w-auto"
               />
               <p className="mt-4 text-sm leading-relaxed text-white/60">
                 {COMPANY.tagline}. Atuando desde {COMPANY.founded} em Leme, SP.
