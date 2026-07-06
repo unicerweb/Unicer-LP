@@ -60,6 +60,44 @@ export default function RootLayout({
 
               gtag('config', 'AW-18303231984');
             `}
+          </Script>          <Script id="whatsapp-conversion-tracking" strategy="afterInteractive">
+            {`
+              function gtag_report_conversion(url) {
+                var callback = function () {
+                  if (typeof(url) !== 'undefined') {
+                    window.location = url;
+                  }
+                };
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-18303231984/6enKCM-qyMsCEPDPlJdE',
+                  'value': 1.0,
+                  'currency': 'BRL',
+                  'event_callback': callback
+                });
+                return false;
+              }
+
+              document.addEventListener('click', function(event) {
+                var link = event.target.closest('a');
+
+                if (!link) return;
+
+                var href = link.getAttribute('href');
+
+                if (
+                  href &&
+                  (
+                    href.includes('wa.me') ||
+                    href.includes('api.whatsapp.com') ||
+                    href.includes('web.whatsapp.com') ||
+                    href.includes('whatsapp')
+                  )
+                ) {
+                  event.preventDefault();
+                  gtag_report_conversion(href);
+                }
+              });
+            `}
           </Script>
           {children}
         </body>
