@@ -16,7 +16,7 @@ export function Footer() {
                 alt={COMPANY.fullName}
                 width={300}
                 height={110}
-                className="h-12 w-auto"
+                className="h-12 w-auto rounded-lg bg-white p-1.5"
               />
               <p className="mt-4 text-sm leading-relaxed text-white/60">
                 {COMPANY.tagline}. Atuando desde {COMPANY.founded} em Leme, SP.
