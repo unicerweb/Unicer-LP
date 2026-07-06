@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -45,8 +46,61 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`${dmSans.variable} h-full scroll-smooth`}>
-      <body className="min-h-full bg-white antialiased">{children}</body>
-    </html>
+        <html lang="pt-BR" className={`${dmSans.variable} h-full scroll-smooth`}>
+        <body className="min-h-full bg-white antialiased">
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=AW-18303231984"
+            strategy="afterInteractive"
+          />
+          <Script id="google-ads-tag" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'AW-18303231984');
+            `}
+          </Script>          <Script id="whatsapp-conversion-tracking" strategy="afterInteractive">
+            {`
+              function gtag_report_conversion(url) {
+                var callback = function () {
+                  if (typeof(url) !== 'undefined') {
+                    window.location = url;
+                  }
+                };
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-18303231984/6enKCM-qyMsCEPDPlJdE',
+                  'value': 1.0,
+                  'currency': 'BRL',
+                  'event_callback': callback
+                });
+                return false;
+              }
+
+              document.addEventListener('click', function(event) {
+                var link = event.target.closest('a');
+
+                if (!link) return;
+
+                var href = link.getAttribute('href');
+
+                if (
+                  href &&
+                  (
+                    href.includes('wa.me') ||
+                    href.includes('api.whatsapp.com') ||
+                    href.includes('web.whatsapp.com') ||
+                    href.includes('whatsapp')
+                  )
+                ) {
+                  event.preventDefault();
+                  gtag_report_conversion(href);
+                }
+              });
+            `}
+          </Script>
+          {children}
+        </body>
+      </html>
   );
 }
