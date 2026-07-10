@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-
+// Força novo deploy para publicar Pixel Meta Unicer
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
   subsets: ["latin"],
