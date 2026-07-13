@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
 verification: {
   other: {
-    "facebook-domain-verification": "abtbfxsn1w55shbozsoxraummrf4yi",
+    "facebook-domain-verification": "abtbfxsn1w55sbhozsoxraummrf4yi",
   },
 },};
 
