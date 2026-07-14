@@ -87,20 +87,44 @@ export default function RootLayout({
             `}
           </Script>          <Script id="whatsapp-conversion-tracking" strategy="afterInteractive">
             {`
-              function gtag_report_conversion(url) {
-                var callback = function () {
-                  if (typeof(url) !== 'undefined') {
-                    window.location = url;
-                  }
-                };
-                gtag('event', 'conversion', {
-                  'send_to': 'AW-18303231984/6enKCM-qyMsCEPDPlJdE',
-                  'value': 1.0,
-                  'currency': 'BRL',
-                  'event_callback': callback
-                });
-                return false;
-              }
+             function gtag_report_conversion(url) {
+  var eventId = 'contact_' + Date.now() + '_' + Math.random().toString(36).substring(2);
+
+  if (typeof fbq !== 'undefined') {
+    fbq('track', 'Contact', {}, { eventID: eventId });
+  }
+
+  fetch('/api/meta-capi', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    credentials: 'include',
+    keepalive: true,
+    body: JSON.stringify({
+      eventName: 'Contact',
+      eventId: eventId,
+      sourceUrl: window.location.href
+    })
+  }).catch(function(error) {
+    console.error('Erro Meta CAPI:', error);
+  });
+
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18303231984/6enKCM-qyMsCEPDPJdE',
+    'value': 1.0,
+    'currency': 'BRL',
+    'event_callback': callback
+  });
+
+  return false;
+}
 
               document.addEventListener('click', function(event) {
                 var link = event.target.closest('a');
